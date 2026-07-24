@@ -1,7 +1,19 @@
 aid: birdstop
 name: Birdstop
-description: Birdstop is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Birdstop is an American autonomous-drone and remote-sensing company that lets
+  organizations monitor and inspect field assets at scale without personnel
+  onsite. Its Fealty system is an all-weather, always-on drone that launches in
+  under three seconds, flies for up to 45 minutes, cruises at 45 mph, and
+  patrols 24/7 across public safety, utilities, transportation, construction,
+  and data-center sites. Birdstop pairs networked UAVs and ground stations with
+  computer vision and a patented optical/acoustic detect-and-avoid system to
+  enable safe beyond-visual-line-of-sight flight under some of the FAA's most
+  advanced approvals, delivering Observation-on-Demand intel over the internet.
+  The company is FAA-authorized, SOC 2 certified, and NDAA compliant, and builds
+  its drones in Detroit. Backed by Techstars, Birdstop currently exposes no
+  public developer API; this profile tracks the company for the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/birdstop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://birdstop.io/birdstop-logo.png
 tags:
 - Company
+- Drones
+- UAV
+- Remote Sensing
+- Autonomous Systems
+- Aerial Surveillance
+- Critical Infrastructure
+- Public Safety
+- Robotics
+- Computer Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,16 @@ maintainers:
 common:
 - type: Website
   url: https://birdstop.io/
+- type: Pricing
+  url: https://birdstop.io/pricing
+- type: Blog
+  url: https://birdstop.io/news
+- type: LinkedIn
+  url: https://www.linkedin.com/company/birdstop
+- type: DomainSecurity
+  url: security/birdstop-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
