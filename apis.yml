@@ -57,7 +57,7 @@ tags:
 - Critical Infrastructure
 - Public Safety
 - Robotics
-- Computer-Vision
+- Computer Vision
 tags_raw:
 - Company
 - Drones
@@ -69,6 +69,7 @@ tags_raw:
 - Public Safety
 - Robotics
 - Computer Vision
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
